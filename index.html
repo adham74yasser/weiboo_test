@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/respon.css">
         <link rel="stylesheet" href="icon/all.min.css">
         <title>Weiboo - E-commerce HTML Template</title>
     </head>
@@ -22,7 +23,8 @@
                     </div>
                 </div>
                 <div class="nav_wrapper">
-                    <div class="nav_wrapper_search">
+                    <div class="box_nav">
+                        <div class="nav_wrapper_search">
                         <select name="" id="">
                             <option value="all">all</option>
                             <option value="men">men</option>
@@ -53,71 +55,81 @@
                         <i class="fa-solid fa-cart-shopping"></i>
                         <i class="fa-regular fa-heart"></i>
                         <i class="fa-regular fa-user"></i>
+                        <label for="close"><i class="fa-regular fa-user"></i></label>
+                    </div>
                     </div>
                 </div>
+                <input type="checkbox" class="close" id="close" style="display: none;">
                 <nav>
-                    <div class="coupon_logo">
-                        <img src="images/percent-tag.png" alt="">
-                        <div class="code">
-                            <p>COUPON CODE</p>
-                            <p>WEIBOO45%</p>
+                    <div class="cont_nav">
+                        <div class="coupon_logo">
+                            <img src="images/percent-tag.png" alt="">
+                            <div class="code">
+                                <p>COUPON CODE</p>
+                                <p>WEIBOO45%</p>
+                            </div>
                         </div>
-                    </div>
-                    <ul>
-                        <li>
-                            <a href="">Home<i class="fa-solid fa-plus"></i></a>
-                            <ol>
-                                <li><a href="">Main Home</a></li>
-                                <li><a href="">Fashion Home</a></li>
-                                <li><a href="">Fashion Home Two</a></li>
-                                <li><a href="">Furniture Home</a></li>
-                                <li><a href="">Decor Home</a></li>
-                                <li><a href="">Electronics Home</a></li>
-                                <li><a href="">Grocery Home</a></li>
-                                <li><a href="">Footwear Home</a></li>
-                                <li><a href="">Gaming Home</a></li>
-                                <li><a href="">Sunglass Home</a></li>
-                            </ol>
-                        </li>
-                        <li>
-                            <a href="">Shop<i class="fa-solid fa-plus"></i></a>
-                            <ol class="row">
-                                <li><a href="">Main Home</a></li>
-                                <li><a href="">Fashion Home</a></li>
-                                <li><a href="">Fashion Home Two</a></li>
-                                <li><a href="">Furniture Home</a></li>
-                                <li><a href="">Decor Home</a></li>
-                                <li><a href="">Electronics Home</a></li>
-                                <li><a href="">Grocery Home</a></li>
-                                <li><a href="">Footwear Home</a></li>
-                                <li><a href="">Gaming Home</a></li>
-                                <li><a href="">Sunglass Home</a></li>
-                                <li><a href="">Sunglass Home</a></li>
-                            </ol>
-                        </li>
-                        <li>
-                            <a href="">Pages<i class="fa-solid fa-plus"></i></a>
-                            <ol class="grid_3">
-                                <li><a href="">Footwear Home</a></li>
-                                <li><a href="">Gaming Home</a></li>
-                                <li><a href="">Sunglass Home</a></li>
-                            </ol>
-                        </li>
-                        <li>
-                            <a href="">Blog<i class="fa-solid fa-plus"></i></a>
-                            <ol class="grid_3">
-                                <li><a href="">Footwear Home</a></li>
-                                <li><a href="">Gaming Home</a></li>
-                                <li><a href="">Sunglass Home</a></li>
-                            </ol>
-                        </li>
-                        <li>
-                            <a href="">Contac</a>
-                        </li>
-                    </ul>
-                    <div class="nav_support">
-                        <span>Get Support</span>
-                        <p>info@webexample.com</p>
+                        <ul>
+                            <label for="close"><span><i class="fa-solid fa-plus"></i></span></label>
+                            <li>
+                                <input type="checkbox" id="close_1" style="display: none;">
+                                <label for="close_1">Home<i class="fa-solid fa-plus"></i></label>
+                                <ol>
+                                    <li><a href="">Main Home</a></li>
+                                    <li><a href="">Fashion Home</a></li>
+                                    <li><a href="">Fashion Home Two</a></li>
+                                    <li><a href="">Furniture Home</a></li>
+                                    <li><a href="">Decor Home</a></li>
+                                    <li><a href="">Electronics Home</a></li>
+                                    <li><a href="">Grocery Home</a></li>
+                                    <li><a href="">Footwear Home</a></li>
+                                    <li><a href="">Gaming Home</a></li>
+                                    <li><a href="">Sunglass Home</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="close_2" style="display: none;">
+                                <label for="close_2">Shop<i class="fa-solid fa-plus"></i></label>
+                                <ol class="row">
+                                    <li><a href="">Main Home</a></li>
+                                    <li><a href="">Fashion Home</a></li>
+                                    <li><a href="">Fashion Home Two</a></li>
+                                    <li><a href="">Furniture Home</a></li>
+                                    <li><a href="">Decor Home</a></li>
+                                    <li><a href="">Electronics Home</a></li>
+                                    <li><a href="">Grocery Home</a></li>
+                                    <li><a href="">Footwear Home</a></li>
+                                    <li><a href="">Gaming Home</a></li>
+                                    <li><a href="">Sunglass Home</a></li>
+                                    <li><a href="">Sunglass Home</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="close_3" style="display: none;">
+                                <label for="close_3">Pages<i class="fa-solid fa-plus"></i></label>
+                                <ol class="grid_3">
+                                    <li><a href="">Footwear Home</a></li>
+                                    <li><a href="">Gaming Home</a></li>
+                                    <li><a href="">Sunglass Home</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="close_4" style="display: none;">
+                                <label for="close_4">Blog<i class="fa-solid fa-plus"></i></label>
+                                <ol class="grid_3">
+                                    <li><a href="">Footwear Home</a></li>
+                                    <li><a href="">Gaming Home</a></li>
+                                    <li><a href="">Sunglass Home</a></li>
+                                </ol>
+                            </li>
+                            <li>
+                                <label for="">Contac</label>
+                            </li>
+                        </ul>
+                        <div class="nav_support">
+                            <span>Get Support</span>
+                            <p>info@webexample.com</p>
+                        </div>
                     </div>
                 </nav>
             </div>
