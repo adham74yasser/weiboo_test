@@ -62,7 +62,10 @@
 }
 @media (max-width : 768px) {
     /* start  header */
-
+    
+    label {
+        display: flex;
+    }
     .nav_wrapper_logo {
         width: 40%;
     }

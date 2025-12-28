@@ -53,6 +53,7 @@ body {
     justify-content: space-between;
     padding: 5px 40px;
     background: var(--back-color);
+
 }
 
 .welcome_text{
@@ -167,6 +168,10 @@ body {
     gap: 10px;
 }
 
+label {
+    display: none;
+}
+
 .nav_wrapper_icon select{
     width: 90px;
 }
@@ -199,10 +204,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
     background: var(--Regular-color);
     padding: 0 40px; 
 }
+
 
 nav
 ,.coupon_logo {
@@ -210,7 +218,6 @@ nav
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
     z-index: 9999999;
     height: 76px;
 }
