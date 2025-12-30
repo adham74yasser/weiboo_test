@@ -214,6 +214,9 @@
         width: 100%;
     }
     /* end  header */
+    .card {
+    width: calc((100% - 20px) / 2);
+    }
 }
 @media (max-width : 576px) {
 
@@ -257,6 +260,10 @@
         width: max-content;
         overflow: hidden;
         display: inline-block;
+    }
+
+    .Newsletter h3 {
+        font-size: 35px;
     }
 
     .card
